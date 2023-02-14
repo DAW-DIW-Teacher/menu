@@ -1,0 +1,39 @@
+
+.button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-border-width: 0 0 0 4px;
+    -fx-border-color: blue;
+    -fx-border-style: solid;
+    -fx-font-weight: bold;
+}
+
+.button:focused {
+    -fx-border-width: 0 0 0 4px;
+    -fx-border-color: blue;
+    -fx-border-style: solid;
+    -fx-font-weight: bold;
+}
+
+.subMenu .button{
+
+ -fx-background-color: red;
+
+}
+
+.subMenu .button:hover {
+    -fx-border-width: 0 0 0 4px;
+    -fx-border-color: yellow;
+    -fx-border-style: solid;
+    -fx-font-weight: bold;
+}
+
+.subMenu .button:focused {
+    -fx-border-width: 0 0 0 4px;
+    -fx-border-color: green;
+    -fx-border-style: solid;
+    -fx-font-weight: bold;
+}
